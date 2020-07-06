@@ -46,6 +46,6 @@ def file_generate(number):
 
 
 if __name__ == '__main__':
-    num = input('input number of ABC contest(e.g. 169)')
+    num = input('input number of ABC contest(e.g. 174)\n')
     dirs_generate(num)
     file_generate(num)
