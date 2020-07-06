@@ -1,5 +1,5 @@
 # AtCoder_template
-Small script to generate template files for AtCoder ABC contests
+Small script to generate template files for AtCoder ABC contests.
 
 ## How to use
 Run the template.py in a directory where you would like to create working files for AtCoder ABC contest.
@@ -16,8 +16,8 @@ The script will generate directories like below:
 
 ## Description for generate files
 ### main.py
-write your answer under resolve(). 
+write your answer under resolve()
 This enables you to do unittest with test_*.py file with a Chrome Extension [AtCoder Unit Test](https://github.com/YujiSoftware/ac-unit-test)
 
 ### test_*.py
-Copy-and-paste test cases as AtCoder Unit Test instructs 
+Copy-and-paste test cases as AtCoder Unit Test instructs.
