@@ -22,12 +22,12 @@ def file_generate(number):
     parent = f'ABC{number}'
     probs = ['A', 'B', 'C', 'D', 'E', 'F']
 
-    ans_header = 'def resolve():\n\t' \
-                 'import sys\n\t' \
-                 'read = sys.stdin.buffer.read\n\t' \
-                 'readline = sys.stdin.buffer.readline\n\t' \
-                 'readlines = sys.stdin.buffer.readlines\n\t' \
-                 'sys.setrecursionlimit(10**7)\n\n\t'
+    ans_header = 'def resolve():\n    ' \
+                 'import sys\n    ' \
+                 'read = sys.stdin.buffer.read\n    ' \
+                 'readline = sys.stdin.buffer.readline\n    ' \
+                 'readlines = sys.stdin.buffer.readlines\n    ' \
+                 'sys.setrecursionlimit(10**7)\n\n    '
 
     for prob in probs:
         path = f'{parent}/{prob}'
