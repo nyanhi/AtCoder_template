@@ -9,7 +9,7 @@ Then input 3 digit number for the contest (e.g. if you will be working on ABC174
 >
     $python -m template.py
     input number of ABC contest(e.g. 174)
-    *174*
+    174
 
 
 ## Directory Structure
